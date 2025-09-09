@@ -1,5 +1,6 @@
 <?php
 namespace Students;
+use Students\Student;
 class StudentManager{
     private $students =[];
     public function add_student($name, $grade)
